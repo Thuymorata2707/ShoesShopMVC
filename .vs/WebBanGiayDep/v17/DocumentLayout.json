@@ -1,0 +1,614 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projectWebNC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|d:\\projectwebnc\\webbangiaydep\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|d:\\projectwebnc\\webbangiaydep\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\giohang\\giohangpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\giohang\\giohangpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\user\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\user\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\libraries\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\libraries\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\dbshopgiay.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\dbshopgiay.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\paymentcallbackipnvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\paymentcallbackipnvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\paymentinformationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\paymentinformationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\paymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\paymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\dbshopgiay.dbml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\dbshopgiay.dbml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\ctdh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\ctdh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\ctsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\ctsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\md5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\md5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\home\\giaynu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\home\\giaynu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\shared\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\shared\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\home\\giaynam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\home\\giaynam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\admin\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\admin\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\shared\\shop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\shared\\shop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\shared\\index3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\shared\\index3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\views\\admin\\listadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\views\\admin\\listadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\dbshopgiay.dbml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|Form",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\dbshopgiay.dbml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|D:\\projectWebNC\\webbangiaydep\\models\\dbshopgiay.dbml.layout||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{98D999EF-3DD7-4A49-A311-9C674CD033F4}|WebBanGiayDep\\WebBanGiayDep.csproj|solutionrelative:webbangiaydep\\models\\dbshopgiay.dbml.layout||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Web.config",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Web.config",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Web.config",
+              "RelativeToolTip": "WebBanGiayDep\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-26T12:20:06.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dangky.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\User\\Dangky.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\User\\Dangky.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\User\\Dangky.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\User\\Dangky.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAmwFoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:31.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Xacnhandonhang.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\GioHang\\Xacnhandonhang.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\GioHang\\Xacnhandonhang.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\GioHang\\Xacnhandonhang.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\GioHang\\Xacnhandonhang.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:31.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatHang.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\GioHang\\DatHang.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\GioHang\\DatHang.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\GioHang\\DatHang.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\GioHang\\DatHang.cshtml",
+              "ViewState": "AQIAACsAAAAAAAAAAAAYwFQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:31.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GiohangPartial.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\GioHang\\GiohangPartial.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\GioHang\\GiohangPartial.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\GioHang\\GiohangPartial.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\GioHang\\GiohangPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:32.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GioHang.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\GioHang\\GioHang.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\GioHang\\GioHang.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAgwFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:32.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:32.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\OrderViewModel.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\OrderViewModel.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\OrderViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Libraries\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Libraries\\VnPayLibrary.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Libraries\\VnPayLibrary.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Libraries\\VnPayLibrary.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAtwEoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaymentCallbackIPNVM.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\PaymentCallbackIPNVM.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\PaymentCallbackIPNVM.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\PaymentCallbackIPNVM.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\PaymentCallbackIPNVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebBanGiayDep\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dbShopGiay.dbml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\dbShopGiay.dbml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\dbShopGiay.dbml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\dbShopGiay.dbml",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\dbShopGiay.dbml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-26T12:19:32.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaymentResponseModel.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\PaymentResponseModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\PaymentResponseModel.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\PaymentResponseModel.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\PaymentResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbShopGiay.designer.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\dbShopGiay.designer.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\dbShopGiay.designer.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\dbShopGiay.designer.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\dbShopGiay.designer.cs",
+              "ViewState": "AQIAABoJAAAAAAAAAAAhwCsJAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-26T12:19:32.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAKwCAAAAAAAAAAAcwM0CAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GioHang.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\GioHang.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\GioHang.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\GioHang.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\GioHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaymentInformationModel.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\PaymentInformationModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\PaymentInformationModel.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\PaymentInformationModel.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\PaymentInformationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CTDH.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\CTDH.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\CTDH.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\CTDH.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\CTDH.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DonHangController.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Controllers\\DonHangController.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Controllers\\DonHangController.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Controllers\\DonHangController.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Controllers\\DonHangController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CTSP.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\CTSP.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\CTSP.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\CTSP.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\CTSP.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Md5.cs",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\Md5.cs",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\Md5.cs",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\Md5.cs",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\Md5.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:32.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Shared\\index.html",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\Shared\\index.html",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Shared\\index.html",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\Shared\\index.html",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-26T12:19:32.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GiayNu.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Home\\GiayNu.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\Home\\GiayNu.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Home\\GiayNu.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\Home\\GiayNu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:32.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GiayNam.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Home\\GiayNam.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\Home\\GiayNam.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Home\\GiayNam.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\Home\\GiayNam.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:32.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:32.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\packages.config",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\packages.config",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\packages.config",
+              "RelativeToolTip": "WebBanGiayDep\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-26T12:19:32.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACkAAACaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:32.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderDetail.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Admin\\OrderDetail.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\Admin\\OrderDetail.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Admin\\OrderDetail.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\Admin\\OrderDetail.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:32.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:32.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "shop.html",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Shared\\shop.html",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\Shared\\shop.html",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Shared\\shop.html",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\Shared\\shop.html",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-26T12:19:32.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "index3.html",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Shared\\index3.html",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\Shared\\index3.html",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Shared\\index3.html",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\Shared\\index3.html",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-26T12:19:32.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ListAdmin.cshtml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Admin\\ListAdmin.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Views\\Admin\\ListAdmin.cshtml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Views\\Admin\\ListAdmin.cshtml",
+              "RelativeToolTip": "WebBanGiayDep\\Views\\Admin\\ListAdmin.cshtml",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-26T12:19:32.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "dbShopGiay.dbml",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\dbShopGiay.dbml",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\dbShopGiay.dbml",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\dbShopGiay.dbml",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\dbShopGiay.dbml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-26T12:19:32.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "dbShopGiay.dbml.layout",
+              "DocumentMoniker": "D:\\projectWebNC\\WebBanGiayDep\\Models\\dbShopGiay.dbml.layout",
+              "RelativeDocumentMoniker": "WebBanGiayDep\\Models\\dbShopGiay.dbml.layout",
+              "ToolTip": "D:\\projectWebNC\\WebBanGiayDep\\Models\\dbShopGiay.dbml.layout",
+              "RelativeToolTip": "WebBanGiayDep\\Models\\dbShopGiay.dbml.layout",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-26T12:19:32.829Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

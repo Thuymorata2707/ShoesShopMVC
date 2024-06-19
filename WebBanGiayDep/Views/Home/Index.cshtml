@@ -1,0 +1,113 @@
+﻿@using WebBanGiayDep.Models
+@using PagedList.Mvc
+@model PagedList.PagedList<SANPHAM>
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<style>
+    .banner img {
+        width: 90%;
+        margin: 10px 10px 10px 80px;
+    }
+
+    .right h2 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        color: cadetblue;
+    }
+
+    .right li {
+        list-style-type: disc;
+    }
+
+    .right p {
+        margin-top: 5px;
+        font-size: 15px;
+        color: darkslategray;
+        font-weight: 500;
+    }
+</style>
+<div class="index-banner">
+    <div class="wmuSlider example1" style="height: 560px;">
+        @Html.Action("GiayMoi", "Home")
+        <a class="wmuSliderPrev">Previous</a><a class="wmuSliderNext">Next</a>
+        <ul class="wmuSliderPagination">
+            <li><a href="#" class="">0</a></li>
+            <li><a href="#" class="">1</a></li>
+            <li><a href="#" class="wmuActive">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+        </ul>
+        <a class="wmuSliderPrev">Previous</a><a class="wmuSliderNext">Next</a><ul class="wmuSliderPagination"><li><a href="#" class="wmuActive">0</a></li><li><a href="#" class="">1</a></li><li><a href="#" class="">2</a></li><li><a href="#" class="">3</a></li><li><a href="#" class="">4</a></li></ul>
+    </div>
+
+    <script src="~/Scripts/jquery.wmuSlider.js"></script>
+    <script type="text/javascript" src="~/Scripts/modernizr.custom.min.js"></script>
+    <script>
+        $('.example1').wmuSlider();
+    </script>
+</div>
+<div class="main">
+    <div class="wrap">
+        <div class="content-bottom" style=" padding-left: 20px; padding-right: 20px">
+            @foreach (var item in Model)
+            {
+                if (item.TrangThai == true)
+                {
+                    <div class="box1">
+                        <div class="col_1_of_3 span_1_of_3" style="margin: 0 20px 20px 0; border-radius: 10px; box-shadow: 2px 5px 8px #888888">
+                            <a href="@Url.Action("ChiTietSanPham", "Home",new {id = item.MaGiay } )">
+                                <div class="view view-fifth">
+                                    <div class="top_box">
+                                        <h3 class="m_1">@item.TenGiay</h3>
+                                        <div class="grid_img">
+                                            <div class="css3"><img src="~/images/@item.AnhBia" style="width:173px; height:173px" alt="" /></div>
+                                            <div class="mask" style="text-align: center">
+                                                <div class="info" style="border-radius: 5px">Xem thêm</div>
+                                            </div>
+                                        </div>
+                                        <div class="price">@String.Format("{0:0,0}", item.GiaBan) VNĐ</div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </div>
+                    </div>
+                }
+            }
+
+            <div class="clear"></div>
+            <br />
+            <div class="MenuTrang" style="text-align:center">
+                Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+            </div>
+
+        </div>
+    </div>
+
+    <div class="banner" style="display: flex; ">
+        <div class="left" style="width: 60%">
+            <img src="~/images/banner.jpg" alt="">
+        </div>
+        <div class="right" style="margin-right: 50px; margin-left: 20px; width: 35%; padding-top: 80px">
+            <h2>Welcome to Shoes Shop</h2>
+            <ul>
+                <li>
+                    <p>Hơn 10 năm phát triển, SHOP luôn mang đến những mẫu giày chất lượng tốt nhất với giá cả hợp lí nhất đến tay người tiêu dùng với hệ thống cửa hàng bán online khắp Việt Nam.</p>
+
+                </li>
+                <li>
+                    <p>
+                        Làm việc 24/7 và sẵn sàng tiếp khách vào bất kỳ thời điểm nào trong ngày và đêm
+                    </p>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+</div>

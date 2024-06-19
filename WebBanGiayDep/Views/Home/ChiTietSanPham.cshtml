@@ -1,0 +1,240 @@
+﻿
+@{
+    ViewBag.Title = "ChiTietSanPham";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<title>Free Adidas Website Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="~/Content/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="~/Scripts/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".dropdown img.flag").addClass("flagvisibility");
+
+        $(".dropdown dt a").click(function () {
+            $(".dropdown dd ul").toggle();
+        });
+
+        $(".dropdown dd ul li a").click(function () {
+            var text = $(this).html();
+            $(".dropdown dt a span").html(text);
+            $(".dropdown dd ul").hide();
+            $("#result").html("Selected value is: " + getSelectedValue("sample"));
+        });
+
+        function getSelectedValue(id) {
+            return $("#" + id).find("dt a span.value").html();
+        }
+
+        $(document).bind('click', function (e) {
+            var $clicked = $(e.target);
+            if (!$clicked.parents().hasClass("dropdown"))
+                $(".dropdown dd ul").hide();
+        });
+
+
+        $("#flagSwitcher").click(function () {
+            $(".dropdown img.flag").toggleClass("flagvisibility");
+        });
+    });
+</script>
+@* css*@
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="~/Content/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="~/Content/form.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="~/Scripts/jquery.min.js"></script>
+<script src="~/Scripts/jquery.easydropdown.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".dropdown img.flag").addClass("flagvisibility");
+
+        $(".dropdown dt a").click(function () {
+            $(".dropdown dd ul").toggle();
+        });
+
+        $(".dropdown dd ul li a").click(function () {
+            var text = $(this).html();
+            $(".dropdown dt a span").html(text);
+            $(".dropdown dd ul").hide();
+            $("#result").html("Selected value is: " + getSelectedValue("sample"));
+        });
+
+        function getSelectedValue(id) {
+            return $("#" + id).find("dt a span.value").html();
+        }
+
+        $(document).bind('click', function (e) {
+            var $clicked = $(e.target);
+            if (!$clicked.parents().hasClass("dropdown"))
+                $(".dropdown dd ul").hide();
+        });
+
+
+        $("#flagSwitcher").click(function () {
+            $(".dropdown img.flag").toggleClass("flagvisibility");
+        });
+    });
+</script>
+<!-- start menu -->
+<link href="~/Content/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="~/Scripts/megamenu.js"></script>
+<script>$(document).ready(function () { $(".megamenu").megamenu(); });</script>
+<!-- end menu -->
+<script type="text/javascript" src="~/Scripts/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" id="sourcecode">
+    $(function () {
+        $('.scroll-pane').jScrollPane();
+    });
+</script>
+<!-- top scrolling -->
+<script type="text/javascript" src="~/Scripts/move-top.js"></script>
+<script type="text/javascript" src="~/Scripts/easing.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
+        });
+    });
+</script>
+<!-- start menu -->
+<link href="~/Content/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="~/Scripts/megamenu.js"></script>
+<script>$(document).ready(function () { $(".megamenu").megamenu(); });</script>
+<!-- end menu -->
+<!-- top scrolling -->
+<script type="text/javascript" src="~/Scripts/move-top.js"></script>
+<script type="text/javascript" src="~/Scripts/easing.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
+        });
+    });
+</script>
+
+@*<div class="single">*@
+@*<div class="wrap">*@
+<style>
+    .chitietsanpham {
+        margin: 100px 0 30px 300px;
+    }
+
+    .themgiohang a {
+        display: inline-block;
+        background: #000000;
+        color: #ffffff;
+        padding: 8px 30px;
+        margin: 30px 0;
+        border-radius: 30px;
+        transition: backgroud 0.5s;
+    }
+
+    .image-container {
+        transition: transform 0.3s ease;
+    }
+
+        .image-container:hover {
+            transform: scale(1.3); /* Chỉnh scale tùy theo yêu cầu */
+        }
+</style>
+<div class="chitietsanpham">
+    <div class="labout span_1_of_a1" style="position: relative; display: inline-block">
+        <!-- start product_slider -->
+        <img src="~/images/@Model.AnhBia" style="display: block;  height: auto" class="image-container">
+
+        <!-- end product_slider -->
+    </div>
+    <div class="cont1 span_2_of_a1">
+        <h3 class="m_3" style="font-size: 25px; font-weight: 700; color: black">@Model.TenGiay</h3>
+        <h4 class="m_9" style="font-size: 16px; color: gray">Giá Thành: @String.Format("{0:0,0}", Model.GiaBan) VNĐ</h4>
+        <h4 class="m_9" style="font-size: 16px; color: gray ">Thương hiệu: @Model.TenThuongHieu </h4>
+        <h4 class="m_9" style="font-size: 16px; color: gray ">Size: @Model.Size</h4>
+        <h4 class="m_9" style="font-size: 16px; color: gray ">Thời Gian Bảo Hành: @Model.ThoiGianBaoHanh Tháng</h4>
+
+        <div class="btn_form">
+            <form class="themgiohang">
+                <a href="@Url.Action("ThemGioHang","GioHang",new { @iMaGiay = @Model.MaGiay, @strURL = Request.Url.ToString() })">Thêm vào Giỏ Hàng</a>
+            </form>
+        </div>
+        @* <ul class="add-to-links">
+                <li><img src="images/wish.png" alt=""><a href="#">Add to wishlist</a></li>
+            </ul>
+            <p class="m_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        *@
+        @* <div class="social_single">
+                <ul>
+                    <li class="fb"><a href="#"><span> </span></a></li>
+                    <li class="tw"><a href="#"><span> </span></a></li>
+                    <li class="g_plus"><a href="#"><span> </span></a></li>
+                    <li class="rss"><a href="#"><span> </span></a></li>
+                </ul>
+            </div>*@
+    </div>
+    <div class="clear"></div>
+
+
+
+    <script type="text/javascript">
+        $(window).load(function () {
+            $("#flexiselDemo1").flexisel();
+            $("#flexiselDemo2").flexisel({
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3
+                    }
+                }
+            });
+
+            $("#flexiselDemo3").flexisel({
+                visibleItems: 5,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 3000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3
+                    }
+                }
+            });
+
+        });
+    </script>
+    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+    @*   <div class="toogle">
+            <h3 class="m_3">Product Details</h3>
+            <p class="m_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+        </div>
+        <div class="toogle">
+            <h3 class="m_3">Product Reviews</h3>
+            <p class="m_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+        </div>*@
+</div>
+<div class="clear"></div>
+

@@ -1,0 +1,66 @@
+﻿@model WebBanGiayDep.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "ChiTietKhachHang";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="wrap" style="padding-top:2%; padding-left:10%; padding-right:10%; padding-bottom:5%">
+    <h2 style="text-align: center;">THÔNG TIN CHI TIẾT KHÁCH HÀNG</h2>
+    <br />
+    <div style="padding: 20px; align-items: center; display: flex; justify-content: center; ">
+        <table style="width: 700px;" class="center">
+            <tr>
+                <td>Tên tài khoản: </td>
+                <td>
+                    <input type="text" id="txt_Username" name="txt_Username" style="width:400px; border: 1px solid black; border-radius: 3px ;margin: 8px 0px; padding: 5px 3px;" disabled="disabled" value="@Model.TaiKhoanKH" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-Left">Họ tên: </td>
+                <td>
+                    <input type="text" id="txt_HoTen" name="txt_HoTen" style="width: 400px; border: 1px solid black; border-radius: 3px; margin: 8px 0px; padding: 5px 3px;" value="@Model.HoTen" />
+                </td>
+            </tr>
+
+            <tr>
+                <td class="auto-Left">Email:</td>
+                <td>
+                    <input type="email" id="txt_Email" name="txt_Email" style="width: 400px; border: 1px solid black; border-radius: 3px; margin: 8px 0px; padding: 5px 3px;" placeholder="ex: admin@gmail.com" required="required" value="@Model.EmailKH" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-Left">Địa chỉ: </td>
+                <td>
+                    <input type="text" id="txt_DiaChi" name="txt_DiaChi" style="width: 400px; border: 1px solid black; border-radius: 3px; margin: 8px 0px; padding: 5px 3px;" value="@Model.DiaChiKH" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-Left">Số điện thoại: </td>
+                <td>
+                    <input type="text" id="txt_SDT" name="txt_SDT" required="required" style="width: 400px; border: 1px solid black; border-radius: 3px; margin: 8px 0px; padding: 5px 3px;" value="@Model.DienThoaiKH" maxlength="50" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-Left">Ngày sinh: </td>
+                <td>
+                    <input type="text" id="txt_NgaySinh" name="txt_NgaySinh" maxlength="10" style="width: 400px; border: 1px solid black; border-radius: 3px; margin: 8px 0px; padding: 5px 3px;" required="required" value="@Model.NgaySinh" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-Left">Trạng thái: </td>
+                <td>
+                    @Html.DisplayFor(model => model.TrangThai)
+
+            </tr>
+
+
+        </table>
+    </div>
+
+
+    <p style="text-align: center; font-size: 16px">
+        @* @Html.ActionLink("Edit", "Edit", new { id = Model.MaKH }) |*@
+        @Html.ActionLink("Trở về trang khách hàng", "KhachHang")
+    </p>
+</div>

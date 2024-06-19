@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Vo+2uMiYbYdeC+QPAYN+vKDqhwzXcD+aPNdHHKSmOICIN1Gu3jJ5OgQVpX3MCDdQX09lQCWn1Is4OzM0QIjlQ==",
+  "success": true,
+  "projectFilePath": "D:\\projectWebNC\\WebBanGiayDep\\WebBanGiayDep.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

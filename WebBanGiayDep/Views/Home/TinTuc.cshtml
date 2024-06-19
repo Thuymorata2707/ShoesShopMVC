@@ -1,0 +1,213 @@
+﻿
+@{
+    ViewBag.Title = "TinTuc";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+
+
+<style>
+    .header-content {
+        background-color: #f0efef;
+        padding: 64px 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+        .header-content h4 {
+            display: block;
+            width: inherit;
+            font-weight: 800;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .header-content p {
+            cursor: default;
+        }
+
+            .header-content p a {
+                padding: 8px 0;
+                text-decoration: none;
+                color: var(--black-color);
+                margin-right: 8px;
+            }
+
+                .header-content p a:hover {
+                    color: var(--boder);
+                }
+
+            .header-content p span::before {
+                content: "/";
+                font-weight: 700;
+                margin-right: 8px;
+                color: var(--ba-color);
+            }
+
+    .blogs .box-container {
+        width: 98%;
+        display: flex;
+    }
+
+        .blogs .box-container .box {
+            position: relative;
+            margin-right: 25px;
+            margin-left: 25px;
+        }
+
+            .blogs .box-container .box:hover .image img {
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+
+            .blogs .box-container .box:hover .image .icons {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+
+            .blogs .box-container .box .image {
+                height: 20rem;
+                width: 23rem;
+                overflow: hidden;
+                position: relative;
+            }
+
+                .blogs .box-container .box .image .icons {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                    justify-content: space-between;
+                    padding: 15px;
+                    background: #000;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    z-index: 10;
+                    -webkit-transform: translateY(10rem);
+                    transform: translateY(10rem);
+                }
+
+                    .blogs .box-container .box .image .icons a {
+                        font-size: 14px;
+                        color: #fff;
+                    }
+
+                        .blogs .box-container .box .image .icons a i {
+                            padding-right: 10px;
+                            color: #eacf4f;
+                        }
+
+                        .blogs .box-container .box .image .icons a:hover {
+                            color: #eacf4f;
+                        }
+
+                .blogs .box-container .box .image img {
+                    height: 100%;
+                    width: 100%;
+                    -o-object-fit: cover;
+                    object-fit: cover;
+                }
+
+            .blogs .box-container .box .content {
+                text-align: center;
+                padding: 5px;
+            }
+
+                .blogs .box-container .box .content h3 {
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    color: #fff;
+                }
+
+                .blogs .box-container .box .content p {
+                    font-size: 14px;
+                    line-height: 2;
+                    color: #aaa;
+                    padding: 7px 0;
+                }
+
+    .btn {
+        display: inline-block;
+        margin-top: 1rem;
+        cursor: pointer;
+        color: #fff;
+        border: 0.2rem solid rgba(255, 255, 255, 0.3);
+        background: no-repeat;
+        font-size: 16px;
+        padding: 1rem 3rem;
+        background: #000;
+    }
+
+        .btn:hover {
+            color: #000;
+            background: #aaa;
+        }
+</style>
+<div class="header-content">
+    <h4>TRANG TIN TỨC</h4>
+    <p>
+        <a href="@Url.Action("Index", "Home")">Trang Chủ</a>
+        <span>Tin Tức</span>
+    </p>
+</div>
+<section class="blogs" id="blogs" style="margin-bottom: 30px">
+    <div class="box-container">
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="~/images/tintuc1.jpg" alt="">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+            <div class="content">
+                <p>Những sản phẩm da lộn luôn có những sức hút khó cưỡng bởi sự cá tính và không kém phần cổ điển mà nó mang...</p>
+                <a class="btn" href="https://saigonsneaker.com/lifestyle/vintage-la-gi/">  Đọc tiếp » </a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <div class="image">
+                <img src="~/images/tintuc2.jpg" alt="">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+            <div class="content">
+                <p>Khoảng thời gian gần đây, cửa hàng nhận được khá nhiều câu hỏi và thắc mắc về một phong cách thời trang đang dần lấy lại... </p>
+                <a class="btn" href="https://saigonsneaker.com/lifestyle/vintage-la-gi/">
+                    Đọc tiếp »
+                </a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <div class="image">
+                <img src="~/images/tintuc3.jpg" alt="">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+            <div class="content">
+                <p>Những sản phẩm da lộn luôn có những sức hút khó cưỡng bởi sự cá tính và không kém phần cổ điển mà nó mang...</p>
+                <a class="btn" href="https://saigonsneaker.com/lifestyle/vintage-la-gi/">
+                    Đọc tiếp »
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+

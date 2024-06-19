@@ -1,0 +1,95 @@
+﻿@model WebBanGiayDep.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "MyProfile";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<style>
+
+    input .form-control text-box single-line {
+        padding: 10px 15px;
+        width: 97%;
+        color: #000;
+        font-size: 0.8125em;
+        border: 1px solid #f0f0f0;
+        background: #fff;
+        outline: none;
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    input[type="datetime"] {
+        padding: 10px 15px;
+        width: 97%;
+        color: #000;
+        font-size: 0.8125em;
+        border: 1px solid #f0f0f0;
+        background: #fff;
+        outline: none;
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+    }
+</style>
+
+<div class="login">
+    <div class="wrap">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div class="">
+                <div class="login-title">
+                    <h4 class="title" style="text-align: center; font-weight: 700">HỒ SƠ CỦA TÔI</h4>
+                    <div class="comments-area" style=" align-items: center;">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        @Html.HiddenFor(model => model.MaKH)
+                        <form>
+                            <p style="margin-left: 300px">
+                                <label style="font-size: 14px; color: #6F6E6E">Tên tài khoản: </label>
+                                <span>*</span> <span style="color: black; font-size: 14px;"> @Model.TaiKhoanKH </span>
+                            </p>
+
+                            <p style="margin-left: 300px">
+                                <label style="font-size: 14px; color: #6F6E6E">Họ tên khách hàng</label>
+                                <span>*</span>
+                                @Html.EditorFor(model => model.HoTen, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.HoTen, "", new { @class = "text-danger" })
+                            </p>
+
+                            <p style="margin-left: 300px">
+                                <label style="font-size: 14px; color: #6F6E6E">Email</label>
+                                <span>*</span>
+                                <span style="color: black; font-size: 14px;">@Model.EmailKH</span>
+                            </p>
+
+                            <p style="margin-left: 300px">
+                                <label style="font-size: 14px; color: #6F6E6E">Địa chỉ</label>
+                                <span>*</span>
+                                @Html.EditorFor(model => model.DiaChiKH, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.DiaChiKH, "", new { @class = "text-danger" })
+                            </p>
+
+                            <p style="margin-left: 300px">
+                                <label style="font-size: 14px; color: #6F6E6E">Số điện thoại</label>
+                                <span>*</span>
+                                @Html.EditorFor(model => model.DienThoaiKH, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.DienThoaiKH, "", new { @class = "text-danger" })
+                            </p>
+
+                            <p style="margin-left: 300px">
+                                <label style="font-size: 14px; color: #6F6E6E">Ngày sinh</label>
+                                <span>*</span>
+                                @Html.EditorFor(model => model.NgaySinh, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.NgaySinh, "", new { @class = "text-danger" })
+                            </p>
+
+                            <p style="margin-right: 500px">
+                                <input type="submit" value="Lưu">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        }
+    </div>
+</div>
